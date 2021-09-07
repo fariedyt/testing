@@ -1,0 +1,47 @@
+body {
+    background: url('img/body.jpg');
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: rgb(163, 78, 243);
+    color: white;
+}
+
+ul li a.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+ul li a.nav-link:hover {
+    color: black;
+    background-color: white;
+}
+
+div.content {
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.card {
+    margin-top: 10px;
+}
+
+div.card img{
+    height: 300px;
+}
+
+div.footer {
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: rgb(163, 78, 243);
+}
+
+div.footer p {
+    color: white;
+    margin-top: 6px;
+}
